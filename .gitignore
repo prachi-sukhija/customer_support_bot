@@ -1,0 +1,63 @@
+# Python bytecode
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+__pycache__/
+*.py[cod]
+media/
+staticfiles/
+static/
+local_settings.py
+*/migrations/
+*/migrations/*.py
+*/migrations/*.pyc
+
+# If you're using macOS:
+.DS_Store
+
+# If you're using Windows:
+Thumbs.db
+ehthumbs.db
+
+# If you are using PostgreSQL:
+*.pgsql
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Testing
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm specific
+.idea/
+
+# VS Code specific
+.vscode/
